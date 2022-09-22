@@ -1,0 +1,43 @@
+
+{
+    "name": "passport-indeed-oauth2",
+    "version": "1.0.0",
+    "description": "Indeed OAuth2 authentication strategy for Passport",
+    "license": "MIT",
+    "main": "lib/index.js",
+    "homepage": "https://github.com/Workable/passport-indeed-oauth2",
+    "bugs": {
+      "url": "https://github.com/Workable/passport-indeed-oauth2/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Workable/passport-indeed-oauth2"
+    },
+    "author": {
+      "name": "Dimitris Ilias"
+    },
+    "keywords": [
+      "passport",
+      "indeed",
+      "OAuth2",
+      "authentication"
+    ],
+    "files": [
+      "lib"
+    ],
+    "engines": {
+      "node": ">=12.0.0"
+    },
+    "scripts": {
+      "test": "nyc mocha"
+    },
+    "dependencies": {
+      "passport-oauth2": "1.x.x"
+    },
+    "devDependencies": {
+      "chai": "4.2.0",
+      "chai-passport-strategy": "1.0.1",
+      "mocha": "8.0.1",
+      "nyc": "15.1.0"
+    }
+  }
