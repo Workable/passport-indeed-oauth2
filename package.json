@@ -1,7 +1,7 @@
 
 {
-    "name": "passport-indeed-oauth2",
-    "version": "1.0.0",
+    "name": "@workablehr/passport-indeed-oauth2",
+    "version": "0.0.1",
     "description": "Indeed OAuth2 authentication strategy for Passport",
     "license": "MIT",
     "main": "lib/index.js",
