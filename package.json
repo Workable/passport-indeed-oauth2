@@ -29,7 +29,8 @@
       "node": ">=12.0.0"
     },
     "scripts": {
-      "test": "nyc mocha"
+      "test": "nyc mocha",
+      "posttest": "nyc report --reporter=html --reporter=lcov --reporter=text-summary"
     },
     "dependencies": {
       "passport-oauth2": "1.x.x"
